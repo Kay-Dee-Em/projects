@@ -1,0 +1,185 @@
+"","Country","Code","Year","Gold","Silver","Bronze","Count_overall","hover"
+"1","United States","USA",2020,39,41,33,113,"USA
+Medals: 113"
+"2","China","CHN",2020,38,32,18,88,"CHN
+Medals: 88"
+"3","Japan","JPN",2020,27,14,17,58,"JPN
+Medals: 58"
+"4","United Kingdom","GBR",2020,22,21,22,65,"GBR
+Medals: 65"
+"5","Russia","RUS",2020,20,28,23,71,"RUS
+Medals: 71"
+"6","Australia","AUS",2020,17,7,22,46,"AUS
+Medals: 46"
+"7","Netherlands","NLD",2020,10,12,14,36,"NLD
+Medals: 36"
+"8","France","FRA",2020,10,12,11,33,"FRA
+Medals: 33"
+"9","Germany","DEU",2020,10,11,16,37,"DEU
+Medals: 37"
+"10","Italy","ITA",2020,10,10,20,40,"ITA
+Medals: 40"
+"11","Canada","CAN",2020,7,6,11,24,"CAN
+Medals: 24"
+"12","Brazil","BRA",2020,7,6,8,21,"BRA
+Medals: 21"
+"13","New Zealand","NZL",2020,7,6,7,20,"NZL
+Medals: 20"
+"14","Cuba","CUB",2020,7,3,5,15,"CUB
+Medals: 15"
+"15","Hungary","HUN",2020,6,7,7,20,"HUN
+Medals: 20"
+"16","South Korea","KOR",2020,6,4,10,20,"KOR
+Medals: 20"
+"17","Poland","POL",2020,4,5,5,14,"POL
+Medals: 14"
+"18","Czech Republic","CZE",2020,4,4,3,11,"CZE
+Medals: 11"
+"19","Kenya","KEN",2020,4,4,2,10,"KEN
+Medals: 10"
+"20","Norway","NOR",2020,4,2,2,8,"NOR
+Medals: 8"
+"21","Jamaica","JAM",2020,4,1,4,9,"JAM
+Medals: 9"
+"22","Spain","ESP",2020,3,8,6,17,"ESP
+Medals: 17"
+"23","Sweden","SWE",2020,3,6,0,9,"SWE
+Medals: 9"
+"24","Switzerland","CHE",2020,3,4,6,13,"CHE
+Medals: 13"
+"25","Denmark","DNK",2020,3,4,4,11,"DNK
+Medals: 11"
+"26","Croatia","HRV",2020,3,3,2,8,"HRV
+Medals: 8"
+"27","Iran","IRN",2020,3,2,2,7,"IRN
+Medals: 7"
+"28","Serbia","SRB",2020,3,1,5,9,"SRB
+Medals: 9"
+"29","Belgium","BEL",2020,3,1,3,7,"BEL
+Medals: 7"
+"30","Bulgaria","BGR",2020,3,1,2,6,"BGR
+Medals: 6"
+"31","Slovenia","SVN",2020,3,1,1,5,"SVN
+Medals: 5"
+"32","Uzbekistan","UZB",2020,3,0,2,5,"UZB
+Medals: 5"
+"33","Georgia","GEO",2020,2,5,1,8,"GEO
+Medals: 8"
+"34","Taiwan","TWN",2020,2,4,6,12,"TWN
+Medals: 12"
+"35","Turkey","TUR",2020,2,2,9,13,"TUR
+Medals: 13"
+"36","Greece","GRC",2020,2,1,1,4,"GRC
+Medals: 4"
+"37","Uganda","UGA",2020,2,1,1,4,"UGA
+Medals: 4"
+"38","Ecuador","ECU",2020,2,1,0,3,"ECU
+Medals: 3"
+"39","Ireland","IRL",2020,2,0,2,4,"IRL
+Medals: 4"
+"40","Israel","ISR",2020,2,0,2,4,"ISR
+Medals: 4"
+"41","Qatar","QAT",2020,2,0,1,3,"QAT
+Medals: 3"
+"42","Bahamas","BHS",2020,2,0,0,2,"BHS
+Medals: 2"
+"43","Ukraine","UKR",2020,1,6,12,19,"UKR
+Medals: 19"
+"44","Belarus","BLR",2020,1,3,3,7,"BLR
+Medals: 7"
+"45","Romania","ROU",2020,1,3,0,4,"ROU
+Medals: 4"
+"46","Venezuela","VEN",2020,1,3,0,4,"VEN
+Medals: 4"
+"47","India","IND",2020,1,2,4,7,"IND
+Medals: 7"
+"48","Hong Kong","HKG",2020,1,2,3,6,"HKG
+Medals: 6"
+"49","Philippines","PHL",2020,1,2,1,4,"PHL
+Medals: 4"
+"50","Slovakia","SVK",2020,1,2,1,4,"SVK
+Medals: 4"
+"51","South Africa","ZAF",2020,1,2,0,3,"ZAF
+Medals: 3"
+"52","Austria","AUT",2020,1,1,5,7,"AUT
+Medals: 7"
+"53","Egypt","EGY",2020,1,1,4,6,"EGY
+Medals: 6"
+"54","Indonesia","IDN",2020,1,1,3,5,"IDN
+Medals: 5"
+"55","Ethiopia","ETH",2020,1,1,2,4,"ETH
+Medals: 4"
+"56","Portugal","PRT",2020,1,1,2,4,"PRT
+Medals: 4"
+"57","Tunisia","TUN",2020,1,1,0,2,"TUN
+Medals: 2"
+"58","Estonia","EST",2020,1,0,1,2,"EST
+Medals: 2"
+"59","Fiji","FJI",2020,1,0,1,2,"FJI
+Medals: 2"
+"60","Latvia","LVA",2020,1,0,1,2,"LVA
+Medals: 2"
+"61","Thailand","THA",2020,1,0,1,2,"THA
+Medals: 2"
+"62","Bermuda","BMU",2020,1,0,0,1,"BMU
+Medals: 1"
+"63","Morocco","MAR",2020,1,0,0,1,"MAR
+Medals: 1"
+"64","Puerto Rico","PRI",2020,1,0,0,1,"PRI
+Medals: 1"
+"65","Colombia","COL",2020,0,4,1,5,"COL
+Medals: 5"
+"66","Azerbaijan","AZE",2020,0,3,4,7,"AZE
+Medals: 7"
+"67","Dominican Republic","DOM",2020,0,3,2,5,"DOM
+Medals: 5"
+"68","Armenia","ARM",2020,0,2,2,4,"ARM
+Medals: 4"
+"69","Kyrgyzstan","KGZ",2020,0,2,1,3,"KGZ
+Medals: 3"
+"70","Mongolia","MNG",2020,0,1,3,4,"MNG
+Medals: 4"
+"71","Argentina","ARG",2020,0,1,2,3,"ARG
+Medals: 3"
+"72","San Marino","SMR",2020,0,1,2,3,"SMR
+Medals: 3"
+"73","Jordan","JOR",2020,0,1,1,2,"JOR
+Medals: 2"
+"74","Malaysia","MYS",2020,0,1,1,2,"MYS
+Medals: 2"
+"75","Nigeria","NGA",2020,0,1,1,2,"NGA
+Medals: 2"
+"76","Bahrain","BHR",2020,0,1,0,1,"BHR
+Medals: 1"
+"77","Lithuania","LTU",2020,0,1,0,1,"LTU
+Medals: 1"
+"78","Macedonia","MKD",2020,0,1,0,1,"MKD
+Medals: 1"
+"79","Namibia","NAM",2020,0,1,0,1,"NAM
+Medals: 1"
+"80","Saudi Arabia","SAU",2020,0,1,0,1,"SAU
+Medals: 1"
+"81","Turkmenistan","TKM",2020,0,1,0,1,"TKM
+Medals: 1"
+"82","Kazakhstan","KAZ",2020,0,0,8,8,"KAZ
+Medals: 8"
+"83","Mexico","MEX",2020,0,0,4,4,"MEX
+Medals: 4"
+"84","Finland","FIN",2020,0,0,2,2,"FIN
+Medals: 2"
+"85","Botswana","BWA",2020,0,0,1,1,"BWA
+Medals: 1"
+"86","Burkina Faso","BFA",2020,0,0,1,1,"BFA
+Medals: 1"
+"87","Ghana","GHA",2020,0,0,1,1,"GHA
+Medals: 1"
+"88","Grenada","GRD",2020,0,0,1,1,"GRD
+Medals: 1"
+"89","Cote d'Ivoire","CIV",2020,0,0,1,1,"CIV
+Medals: 1"
+"90","Kuwait","KWT",2020,0,0,1,1,"KWT
+Medals: 1"
+"91","Moldova","MDA",2020,0,0,1,1,"MDA
+Medals: 1"
+"92","Syria","SYR",2020,0,0,1,1,"SYR
+Medals: 1"
