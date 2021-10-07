@@ -826,7 +826,8 @@ server <- function(input, output) {
     
     tot_s <- perc_s %>% filter(Medals_top_perc > 0.01) %>% select(Country, Medals_top_perc)
     tot_s <- slice_head(tot_s, n = 9) %>% add_row(Country = "Others", Medals_top_perc = (1-sum(tot_s$Medals_top_perc[1:9])))
-    parts <- data.frame(names = tot_s$Country, vals = ceiling(tot_s$Medals_top_perc*100))
+    parts = c(ceiling(tot_s$Medals_top_perc*100))
+    names(parts) = (tot_s$Country)
     tot_s <- waffle(parts, rows = 10, colors = c("#F29E4C", "#F1C453", "#EFEA5A", "#B9E769", "#83E377",
                                                "#16DB93", "#0DB39E", "#048BA8", "#2C699A", "#54478C"))
     tot_s
@@ -836,7 +837,8 @@ server <- function(input, output) {
   
     gold_s <- perc_s %>% filter(Gold_perc > 0.01) %>% select(Country, Gold_perc)
     gold_s <- slice_head(gold_s, n = 9) %>% add_row(Country = "Others", Gold_perc = (1-sum(gold_s$Gold_perc[1:9])))
-    parts <- data.frame(names = gold_s$Country, vals = ceiling(gold_s$Gold_perc*100))
+    parts = c(ceiling(gold_s$Gold_perc*100))
+    names(parts) = (gold_s$Country)
     gold_s <- waffle(parts, rows = 10, colors = c("#F29E4C", "#F1C453", "#EFEA5A", "#B9E769", "#83E377",
                                                 "#16DB93", "#0DB39E", "#048BA8", "#2C699A", "#54478C"))
     gold_s 
@@ -846,7 +848,8 @@ server <- function(input, output) {
     
     silver_s <- perc_s %>% filter(Silver_perc > 0.01) %>% select(Country, Silver_perc)
     silver_s <- slice_head(silver_s, n = 9) %>% add_row(Country = "Others", Silver_perc = (1-sum(silver_s$Silver_perc[1:9])))
-    parts <- data.frame(names = silver_s$Country, vals = ceiling(silver_s$Silver_perc*100))
+    parts = c(ceiling(silver_s$Silver_perc*100))
+    names(parts) = (silver_s$Country)
     silver_s <- waffle(parts, rows = 10, colors = c("#F29E4C", "#F1C453", "#EFEA5A", "#B9E769", "#83E377",
                                                   "#16DB93", "#0DB39E", "#048BA8", "#2C699A", "#54478C"))
     silver_s 
@@ -856,7 +859,8 @@ server <- function(input, output) {
     
     bronze_s <- perc_s %>% filter(Bronze_perc > 0.01) %>% select(Country, Bronze_perc)
     bronze_s <- slice_head(bronze_s, n = 9) %>% add_row(Country = "Others", Bronze_perc = (1-sum(bronze_s$Bronze_perc[1:9])))
-    parts <- data.frame(names = bronze_s$Country, vals = ceiling(bronze_s$Bronze_perc*100))
+    parts = c(ceiling(bronze_s$Bronze_perc*100))
+    names(parts) = (bronze_s$Country)
     bronze_s <- waffle(parts, rows = 10, colors = c("#F29E4C", "#F1C453", "#EFEA5A", "#B9E769", "#83E377",
                                                   "#16DB93", "#0DB39E", "#048BA8", "#2C699A", "#54478C"))
     bronze_s 
@@ -866,7 +870,8 @@ server <- function(input, output) {
     
     tot_w <- perc_w %>% filter(Medals_top_perc > 0.01) %>% select(Country, Medals_top_perc)
     tot_w <- slice_head(tot_w, n = 9) %>% add_row(Country = "Others", Medals_top_perc = (1-sum(tot_w$Medals_top_perc[1:9])))
-    parts <- data.frame(names = tot_w$Country, vals = ceiling(tot_w$Medals_top_perc*100))
+    parts = c(ceiling(tot_w$Medals_top_perc*100))
+    names(parts) = (tot_w$Country)
     tot_w <- waffle(parts, rows = 10, colors = c("#F29E4C", "#F1C453", "#EFEA5A", "#B9E769", "#83E377",
                                                  "#16DB93", "#0DB39E", "#048BA8", "#2C699A", "#54478C"))
     tot_w
@@ -876,7 +881,8 @@ server <- function(input, output) {
     
     gold_w <- perc_w %>% filter(Gold_perc > 0.01) %>% select(Country, Gold_perc)
     gold_w <- slice_head(gold_w, n = 9) %>% add_row(Country = "Others", Gold_perc = (1-sum(gold_w$Gold_perc[1:9])))
-    parts <- data.frame(names = gold_w$Country, vals = ceiling(gold_w$Gold_perc*100))
+    parts = c(ceiling(gold_w$Gold_perc*100))
+    names(parts) = (gold_w$Country)
     gold_w <- waffle(parts, rows = 10, colors = c("#F29E4C", "#F1C453", "#EFEA5A", "#B9E769", "#83E377",
                                                   "#16DB93", "#0DB39E", "#048BA8", "#2C699A", "#54478C"))
     gold_w 
@@ -886,7 +892,8 @@ server <- function(input, output) {
     
     silver_w <- perc_w %>% filter(Silver_perc > 0.01) %>% select(Country, Silver_perc)
     silver_w <- slice_head(silver_w, n = 9) %>% add_row(Country = "Others", Silver_perc = (1-sum(silver_w$Silver_perc[1:9])))
-    parts <- data.frame(names = silver_w$Country, vals = ceiling(silver_w$Silver_perc*100))
+    parts = c(ceiling(silver_w$Silver_perc*100))
+    names(parts) = (silver_w$Country)
     silver_w <- waffle(parts, rows = 10, colors = c("#F29E4C", "#F1C453", "#EFEA5A", "#B9E769", "#83E377",
                                                     "#16DB93", "#0DB39E", "#048BA8", "#2C699A", "#54478C"))
     silver_w 
@@ -896,7 +903,8 @@ server <- function(input, output) {
     
     bronze_w <- perc_w %>% filter(Bronze_perc > 0.01) %>% select(Country, Bronze_perc)
     bronze_w <- slice_head(bronze_w, n = 9) %>% add_row(Country = "Others", Bronze_perc = (1-sum(bronze_w$Bronze_perc[1:9])))
-    parts <- data.frame(names = bronze_w$Country, vals = ceiling(bronze_w$Bronze_perc*100))
+    parts = c(ceiling(bronze_w$Bronze_perc*100))
+    names(parts) = (bronze_w$Country)
     bronze_w <- waffle(parts, rows = 10, colors = c("#F29E4C", "#F1C453", "#EFEA5A", "#B9E769", "#83E377",
                                                     "#16DB93", "#0DB39E", "#048BA8", "#2C699A", "#54478C"))
     bronze_w 
