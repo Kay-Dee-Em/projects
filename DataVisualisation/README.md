@@ -1,4 +1,4 @@
-## HOW TO DISPLAY PROJECT?
+### HOW TO DISPLAY PROJECT?
 To display visualisation visit:
 
 https://klaudia-maruszak.shinyapps.io/r_olympics/
