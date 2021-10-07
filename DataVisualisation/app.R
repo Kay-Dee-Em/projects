@@ -14,9 +14,9 @@ library(rvest)
 library(stringr)
 library(rlist)
 
-dictionary <- read.csv("dictionary.csv")
-summer_data <- read.csv("summer.csv")
-winter_data <- read.csv("winter.csv")
+dictionary <- read.csv("data/dictionary.csv")
+summer_data <- read.csv("data/summer.csv")
+winter_data <- read.csv("data/winter.csv")
 
 ################# FUNCTIONS ################# 
 
@@ -323,8 +323,8 @@ summer_since_2016 <- summer_since_2016 %>%
                       mutate(Count_overall = as.double(Count_overall)) %>%
                       mutate(hover = paste0(Code, "\n",  "Medals: ", Count_overall))
 
-#write.csv(summer_since_2016, 'summer_since_2016.csv')
-summer_since_2016 <- read.csv("summer_since_2016.csv")
+#write.csv(summer_since_2016, 'data/summer_since_2016.csv')
+summer_since_2016 <- read.csv("data/summer_since_2016.csv")
 
 ####### WINTER ####### 
 
@@ -377,8 +377,8 @@ winter_since_2018 <- winter_since_2018 %>%
                       mutate(Count_overall = as.double(Count_overall)) %>%
                       mutate(hover = paste0(Code, "\n",  "Medals: ", Count_overall))
 
-#write.csv(winter_since_2018, 'winter_since_2018.csv')
-winter_since_2018 <- read.csv("winter_since_2018.csv")
+#write.csv(winter_since_2018, 'data/winter_since_2018.csv')
+winter_since_2018 <- read.csv("data/winter_since_2018.csv")
 
 ###################### GRAPHS ###################### 
 
